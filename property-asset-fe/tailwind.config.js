@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Lato', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'],
+      },
       colors: {
         // Custom color palette
         'white': '#FFFFFF',

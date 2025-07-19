@@ -7,7 +7,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center min-h-screen gap-8">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-[#2B2B2B] mb-4">
-            Property Asset <span className="text-[#30e4e4]">Frontend</span>
+            Property Asset <span className="text-[#30e4e4] font-black">Frontend</span>
           </h1>
           <p className="text-[#666666] text-lg mb-8">
             Welcome to the Property Asset application

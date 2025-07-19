@@ -21,7 +21,7 @@ const WelcomePage = () => {
       
       {/* Headline */}
       <h1 className="text-3xl font-bold text-[#2B2B2B] mb-4 text-center">
-        Ready to <span className="text-[#30e4e4]">explore</span>?
+        Ready to <span className="text-[#30e4e4] font-black">explore</span>?
       </h1>
       
       {/* Body Text */}
@@ -75,7 +75,7 @@ const WelcomePage = () => {
       </div>
       
       {/* FAQ Button */}
-      <div className="text-center">
+      <div className="flex justify-center">
         <Button 
           variant="secondary" 
           size="sm"

@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Button from '../components/Button';
 import Input from '../components/Input';
+import BackButton from '../components/BackButton';
 import { MailIcon, LockIcon, EyeIcon, EyeOffIcon, GoogleIcon, FacebookIcon } from '../components/Icons';
 
 const SignInPage = () => {
@@ -17,14 +18,24 @@ const SignInPage = () => {
     console.log('Sign in:', { email, password });
   };
 
+  const handleBack = () => {
+    // Handle back navigation
+    window.history.back();
+  };
+
   return (
     <div className="min-h-screen bg-white px-6 py-8">
       {/* Status Bar Placeholder */}
       <div className="h-6 mb-8"></div>
       
+      {/* Header with Back Button */}
+      <div className="flex justify-end mb-8">
+        <BackButton onClick={handleBack} />
+      </div>
+      
       {/* Headline */}
       <h1 className="text-3xl font-bold text-[#2B2B2B] mb-4 text-center">
-        Let's <span className="text-[#30e4e4]">Sign In</span>
+        Let's <span className="text-[#30e4e4] font-black">Sign In</span>
       </h1>
       
       {/* Body Text */}
@@ -122,7 +133,7 @@ const SignInPage = () => {
       </div>
       
       {/* FAQ Button */}
-      <div className="text-center">
+      <div className="flex justify-center">
         <Button 
           variant="secondary" 
           size="sm"

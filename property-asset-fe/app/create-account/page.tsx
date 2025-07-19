@@ -44,7 +44,7 @@ const CreateAccountPage = () => {
       
       {/* Title */}
       <h1 className="text-3xl font-bold text-[#2B2B2B] mb-4 text-center">
-        Create your <span className="text-[#30e4e4]">account</span>
+        Create your <span className="text-[#30e4e4] font-black">account</span>
       </h1>
       
       {/* Subtitle */}
