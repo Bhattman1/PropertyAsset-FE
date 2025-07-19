@@ -10,6 +10,23 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Custom color palette */
+  --color-white: #FFFFFF;
+  --color-soft-black: #2B2B2B;
+  --color-soft-black-alt: #333333;
+  --color-pa-teal: #30e4e4;
+  --color-pa-teal-alt: #40E0D0;
+  --color-grey-bg: #F5F5F5;
+  --color-grey-bg-alt: #E5E5E5;
+  
+  /* Hover variants */
+  --color-pa-teal-hover: #2bc8c8;
+  --color-pa-teal-light: #4de8e8;
+  --color-soft-black-hover: #1A1A1A;
+  --color-soft-black-light: #404040;
+  --color-grey-bg-hover: #EBEBEB;
+  --color-grey-bg-light: #FAFAFA;
 }
 
 @media (prefers-color-scheme: dark) {
